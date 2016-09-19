@@ -3,7 +3,7 @@ robot_arm:load_level('exercise 11')
 
 robot_arm.speed = 0.999
 
-for i=0, 8 do
+for i=0, 9 do
   robot_arm:grab()
   if robot_arm:scan() == "red" then
     for a=1, 8 do
